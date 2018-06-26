@@ -40,5 +40,6 @@ function createSphere() {
 }
 
 function createSpheres() {
-  // TODO: implement me!
+  addEntityToScene("<a-spheres>")
+  createSphere()
 }
